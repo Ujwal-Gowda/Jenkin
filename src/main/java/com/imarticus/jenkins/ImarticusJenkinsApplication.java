@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import jakarta.annotation.PostConstruct;
+
 
 @SpringBootApplication
 public class ImarticusJenkinsApplication {
@@ -14,7 +14,6 @@ public class ImarticusJenkinsApplication {
 	
 	public static Logger logger = LoggerFactory.getLogger(ImarticusJenkinsApplication.class);
 	
-	@PostConstruct
 	public void init() {
 		
 		logger.info("application got started!!!!!");
